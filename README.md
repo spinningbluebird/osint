@@ -5,11 +5,12 @@
 # OSINT 
 Docker image for osint tools with Vault Cyber Security
 
+# BUILD
+docker build -t bluebird/osint .
+
 # Run
-```docker
-docker pull vaultsecurity/osint
-docker run -it vaultsecurity/osint bash
-```
+docker run -it bluebird/osint bash
+
 
 # About
 The image was wrote for Security Osint with tools:
@@ -32,3 +33,6 @@ The image was wrote for Security Osint with tools:
   -  OWASP Maryam: __Is an Open-source intelligence(OSINT) and Web-based Footprinting modular/tool framework based on the Recon-ng and written in Python.__
   -  Metabigor: __Is Intelligence tool, its goal is to do OSINT tasks and more but without any API key.__
   -  Getrails: __Tool of OSINT and Dork hacking that work with Google, Duckduckgo and onion__
+  -  Takeover: __Tool that looks for subdomain takeover vulnerabilities on a domain__
+  -  Gitleaks: __Tool to look for hardcoded secrets in Git repos__
+  -  AutoRecon: __Runs enumeration of several services such as port scanning, directory structure, pattern matching__
