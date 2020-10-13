@@ -1,16 +1,11 @@
-<p align="center">
-		<img src="img/logo.gif" height=200 alt="Vault-Osint">
-</p>
-
 # OSINT 
-Docker image for osint tools with Vault Cyber Security
+Modified Docker image of Vault Cyber Security's OSINT
 
 # BUILD
 docker build -t bluebird/osint .
 
 # Run
 docker run -it bluebird/osint bash
-
 
 # About
 The image was wrote for Security Osint with tools:
