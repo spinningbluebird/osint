@@ -29,5 +29,4 @@ The image was wrote for Security Osint with tools:
   -  Metabigor: __Is Intelligence tool, its goal is to do OSINT tasks and more but without any API key.__
   -  Getrails: __Tool of OSINT and Dork hacking that work with Google, Duckduckgo and onion__
   -  Takeover: __Tool that looks for subdomain takeover vulnerabilities on a domain__
-  -  Gitleaks: __Tool to look for hardcoded secrets in Git repos__
   -  AutoRecon: __Runs enumeration of several services such as port scanning, directory structure, pattern matching__
