@@ -97,6 +97,11 @@ _run 'go get -u github.com/j3ssie/metabigor'
 # Installing getrails
 _install_git 'https://github.com/Vault-Cyber-Security/getrails-tool.git'
 _install_pip 'pip3' '-r /workspace/getrails-tool/requirements.txt'
+# Installing Takeover
+_install_git 'https://github.com/m4ll0k/takeover.git'
+_run 'cd takeover && python3 setup.py install'
+# Installing AutoRecon
+_run 'python3 -m pip install git+https://github.com/Tib3rius/AutoRecon.git'
 
 # Install editor
 _run 'apk add vim'
